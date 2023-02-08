@@ -8,7 +8,7 @@ class Employee {
     this.salary = salary;
   }
 
-  responsibilities() {}
+  responsibilities() {} // шаблон
 
   work() {
     return `${this.name} занимается ${this.responsibilities()}`;
